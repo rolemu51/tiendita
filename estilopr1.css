@@ -1,0 +1,155 @@
+#grid-container-m {
+    display:grid;
+    width: 100%;
+    height: 150px;
+    background-color:  navy;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#grid-item-m {
+    background-color:  white;
+    color: navy;
+    width:  150px;
+    height: 100px;
+    justify-content: center;
+    text-align: center; 
+}
+
+.contain {
+     
+    background-color: brown;
+}
+button {
+    border: outset;
+    border-radius: 20px;
+    background-color:  navy;
+    color:whitesmoke;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+button:hover {
+    border-radius: 30px;
+    background-color:  navy;     
+    color:gray;
+    border:inset;
+}
+#grid-lateral {
+    display: grid;
+    width: 200px;
+    height: 550px;
+    background-color: navy;
+    grid-template-columns: 200px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin: left;
+    left:0px;
+    justify-content: center;
+    padding-left: 30px;
+    box-shadow: 2px 2px 5px 10px;
+}
+#grid-item-l1 {
+    padding: 5px;
+    padding-bottom: 30px;   
+    width: 150px;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    margin:left;    
+}
+#cuerpo-t {
+    display:grid;
+    width: 100%;
+    height: 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:rgba(255, 166, 0, 0.346);
+}
+img {  
+    object-fit: cover;
+    width: 70%;  
+}
+img:hover {
+    width: 75%;
+}
+#grid-c {
+    display: grid;
+    width: 100%;
+    height: 600px;
+    background-color: orange;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 10px;
+    box-shadow: 15px 15px 15px 5px;
+    text-align: center;
+}
+#grid-c-item {
+    width: 500px;
+    height: 450px;
+    background-color: navy;
+    color:orange;
+    border:1px solid whitesmoke;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 15px 15px 15px 5px;
+    overflow: scroll;
+}
+h2 {
+    border: 2px solid navy;
+    border-radius: 20px;
+    background-color:orange;
+    color:navy;
+    margin:5px;
+    padding:5px;
+}
+table {
+    border-collapse: collapse;
+    padding: 30px;
+    margin:35px;
+    box-shadow: 15px 5px 15px 5px;
+}
+table th{
+    border: 1px solid orange;
+    background-color: white;
+    color: navy;
+    text-align:center;
+    padding: 5px;
+}
+table tr{
+    border: 1px solid orange;
+    text-align:center;
+    padding: 5px;
+}
+table td{
+    border: 1px solid orange;
+    padding: 5px;
+}
+ tr:hover {
+    background-color: whitesmoke;
+    color: navy;  
+ }
+ #cuadro-flex-usuario {
+    display:flex;
+    background-color: navy;
+    border:5px solid white;
+    color:orange;
+    width: 600px;
+    height: 200px;
+    padding:20px;
+    margin:20px;
+    box-shadow: 15px 5px 15px 5px;
+ }
+ #usuarioingreso {
+    width: 200px;
+    height: 200px;
+    padding:20px;
+    margin:10px;
+ }
+ #nombreusuario {
+    color: whitesmoke;
+    font-size:16px;
+    margin:5px; 
+    padding: 10px;
+}

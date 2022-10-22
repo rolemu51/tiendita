@@ -1,0 +1,69 @@
+
+#grid-container {
+    display:grid;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 7fr;
+    border: 1px solid black;
+}
+
+#turtle {
+    margin:auto;
+    position: relative; 
+    left: 10px;
+    width: 200px;
+}
+
+#balonf {
+    position: relative; 
+    left: 10px;
+    width: 200px;
+}
+#balonb {
+   position: relative; 
+    left: 10px;
+    width: 200px;
+}
+#balonv {
+ 
+    position: relative; 
+    left: 10px;
+    width: 200px;
+}
+#balont {
+    position: relative; 
+    left: 10px;
+    width: 200px;
+}
+
+.flex-c {
+    display:flex;
+    background-color:#48e;
+}
+
+.botones {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+}
+
+
+#img1 {
+    margin:auto;
+    width: 100px;
+}
+#img2 {
+    margin:auto;
+    width: 100px;
+}
+#img3 {
+    margin:auto;
+    width: 100px;
+}
+#img4 {
+    margin:auto;
+    width: 100px;
+}
